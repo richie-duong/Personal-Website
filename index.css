@@ -1,0 +1,209 @@
+/**Adjusts the background color of the website**/
+body {
+    background-color: #CACACA;
+    background-image: linear-gradient(#CACACA,#8D8D8D);
+}
+
+/**This adjusts the overall navigation area**/
+nav {
+    background-color: #343434;
+    height: 105px;
+    width: 1905px;
+    margin: -40px 0px 0px -10px;
+}
+
+/**Adjusts logo image location in the nav area**/
+nav #logo {
+    float: left;
+    margin: 18px 0px 0px 55px;
+}
+
+/**Adjusts the margin of the unordered list in the nav area**/
+nav ul {
+    margin-left: 175px;
+}
+
+/**Adjusts font family and overall button appearance (unhovered)**/
+nav ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #343434;
+    border: none;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    margin: 38px 5px 0px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/**Replaces default text appearance of navigation hyperlinks**/
+a, nav ul li {
+    color: #CACACA;
+    text-decoration: none;
+}
+
+/**Adjusts appearance of navigation buttons when hovered**/
+nav ul li:hover {
+    background-color: #151515;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    margin: 38px 5px 0px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/**Adjusts placement of homepage banner**/
+#home-banner{
+    margin-left: -11px;
+}
+
+/**Adjusts overall color, border, margin, padding, and margin of the about me subsection**/
+#about-me{
+    margin: 4% 0% 0% 8%;
+    background-color: #525252;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    border-style: solid;
+    border-left: #CACACA;
+    border-right: #CACACA;
+    border-bottom: #CACACA;
+    width: 650px;
+    padding: 2% 2% 4% 2%;
+}
+
+/**Centers the heading for the about me subsection**/
+#about-me h1{
+    text-align: center;
+}
+
+/**Adjusts the margin of my picture**/
+#about-me #profile {
+    margin-left: 36%;
+}
+
+/**Adjusts text alignment, padding, and border of the description in this subsection**/
+#about-me p {
+    border: solid 1px;
+    border-style: solid;
+    border-left: #CACACA;
+    border-right: #CACACA;
+    border-bottom: #CACACA;
+    padding-top: 5%;
+    text-align: center;
+}
+
+/**Adjusts overall shape, color, and margin of the school subsection**/
+#school{
+    float: right;
+    margin: -31.70% 8% 0% 0%;
+    background-color: #525252;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    border-style: solid;
+    border-left: #CACACA;
+    border-right: #CACACA;
+    border-bottom: #CACACA;
+    width: 650px;
+    padding: 2% 2% 3% 2%;
+}
+
+/**Adjusts text alignment for school header**/
+#school h1{
+    text-align: center;
+}
+
+/**Adjusts aslignment for school second header**/
+#school h2{
+    text-align: center;
+}
+
+/**Adjusts the margin of the algonquin photo**/
+#school #algonquin {
+    margin-left: 31%;
+}
+
+/**Adjusts the description inside the school subsection**/
+#school p {
+    border: solid 1px;
+    border-left: #CACACA;
+    border-right: #CACACA;
+    border-bottom: #CACACA;
+    padding: 5% 0% 5% 0%;
+    text-align: center;
+}
+
+/**Adjusts overall layout and appearance of algonquin button**/
+#alg-button {
+    color: #343434;
+    background-color: whitesmoke;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+/**Adjusts algonquin button appearance when hovered**/
+#alg-button:hover {
+    color: whitesmoke;
+    background-color: #151515;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+/**Adjusts appearance and layout of the hobby subsection**/
+#hobby{
+    background-color: #525252;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    border-style: solid;
+    border-style: solid;
+    border-left: #CACACA;
+    border-right: #CACACA;
+    border-bottom: #CACACA;
+    width: 1510px;
+    margin: 3% 0% 0% 8%;
+    padding: 2% 2% 3% 2%;
+}
+
+/**Adjusts the text hobby header**/
+#hobby h1 {
+    text-align: center;
+    padding: 0% 0% 1% 0%;
+}
+
+/**Adjusts the appearance of hobby subsection contents**/
+#hobby #hobby-contents {
+    margin: 0% 0% 0% 0%;
+    padding-top: 1%;
+    border: 1px;
+    border-style: solid;
+    border-left: #CACACA;
+    border-right: #CACACA;
+    border-bottom: #CACACA;
+}
+
+/**Adjusts text alignment of hobby contents subsection**/
+#hobby #hobby-contents p {
+    text-align: center;
+}
+
+/**Adjusts the footer appearance and size**/
+footer {
+    background-color: #343434;
+    height: 100px;
+    width: 1905px;
+    margin: 3.5% 0px -40px -10px;
+}
+
+/**Adjusts the font family, text alignment, padding, and text color of contents within footer**/
+footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #CACACA;
+    text-align: center;
+    padding-top: 2%;
+}

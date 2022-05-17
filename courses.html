@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--Declaring document type above, which is HTML-->
+
+<!--HTML language declared, which is English-->
+<html lang="en">
+
+<!--Contains title and CSS stylesheet linked to this HTML document-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Richard's Courses</title>
+    <link rel="stylesheet" type="text/css" href="courses-style.css">
+
+</head>
+
+<!--Body containing navigation bar and subsections indicating courses I've taken-->
+
+<body>
+    <nav>
+        <div id="logo"><a href="index.html"><img src="images/logo.png" alt="website logo"></a></div>
+        <ul id="mainnav">
+            <li><a href="index.html">HOME PAGE</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+        </ul>
+    </nav>
+
+    <!--In progress sub section listing courses I am currently taking
+        Contains course name, section number, level, and a brief description for each course-->
+    <div id="in-prog">
+        <h2>IN PROGRESS</h2>
+
+        <!--Seach bar for this specific subsection-->
+        <div id="search-progress">
+            <input type="text" placeholder="Search..">
+        </div>
+
+        <!--This is to sort the courses either by ascending or descending level-->
+        <div id="filter-progress">
+            <button class="btn active" onclick="">Sort Level Ascending</button>
+            <button class="btn" onclick="">Sort Level Descending</button>
+        </div>
+
+        <!--This is to sort and only view the courses either by level 1 or level 2-->
+        <div id="filter-level-progress">
+            <button class="btn active" onclick="">All Levels</button>
+            <button class="btn" onclick="">Level 1</button>
+            <button class="btn" onclick="">Level 2</button>
+        </div>
+
+        <!--Unordered list of all courses I am currently taking. Each having their own thumbnail and description-->
+        <ul>
+            <li id="w22-01"><img src="images/oop.jpg" alt="java oop"><br><br><b>OBJECT ORIENTED PROGRAMMING (JAVA)</b>
+                <br>LEVEL 2<br>
+                Section 310 & 311 <p>Learning the methodology of objected oriented programming through JAVA.</p>
+            </li>
+            <li id="w22-02"><img src="images/db2.jpg" alt="db systems"><br><b>DATABASE SYSTEMS</b> <br> LEVEL 2<br>Section 310
+                & 311
+                <p>Gaining practical knowledge in commonly used object-relational database management systems.</p>
+            </li>
+            <li id="w22-03"><img src="images/linux.jpg" alt="linux"><br><b>OPERATING SYSTEMS FUND. (GNU/LINUX)</b> <br> LEVEL
+                2<br>Section 055<br>
+                <p>Learning the fundamental concepts and components of Operating systems while understanding how they
+                    hardware and software components interact.</p>
+            </li>
+            <li id="w22-04"><img src="images/web.jpg" alt="webdev"><br><b>WEB PROGRAMMING</b> <br> LEVEL 2<br>Section 340 & 343
+                <p>Learning the fundamentals of web programming, design, and functionalities.</p>
+            </li>
+            <li id="w22-05"><img src="images/tech.jpg" alt="tech comms"><br><b>TECHNICAL COMMUNICATIONS</b> <br>LEVEL
+                2<br>Section 022 <br>
+                <p>Learning the importance of effective communication in a technology-oriented workplace.</p>
+            </li>
+            <li id="w22-06"><img src="images/play.jpg" alt="games"><br><b>THE SCIENCE OF PLAY</b> <br> LEVEL 2<br>Section 309
+                <br>
+                <p>Gaining insight on the history and technological aspects of toys and video games.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!--This is the subsection for all the courses I've completed-->
+    <div id="completed-courses">
+
+        <h2>COMPLETED COURSES</h2>
+
+        <!--Search bar for this specific sub section-->
+        <div id="search-bar">
+            <input type="text" placeholder="Search..">
+        </div>
+
+        <!--Filter completed courses level either be ascending or descending-->
+        <div id="filter-buttons-completed">
+            <button class="btn active" onclick="">Sort Level Ascending</button>
+            <button class="btn" onclick="">Sort Level Descending</button>
+        </div>
+
+        <!--Filter buttons to only view certain levels for this subsection-->
+        <div id="filter-level-completed">
+            <button class="btn active" onclick="">All Levels</button>
+            <button class="btn" onclick="">Level 1</button>
+            <button class="btn" onclick="">Level 2</button>
+        </div>
+
+        <!--Unordered list of all courses previous taken with brief information and thumbnail pictures along with it-->
+        <ul id="completed-list">
+            <li id="f21-01"><img src="images/programming.jpg" alt="programming"><br><br><b>INTRO TO COMPUTER PROGRAMMING</b>
+                <br>LEVEL 1<br>
+                Section 340 & 343 <p>Learned introductory
+                    programming logic, problem-solving, and programming language structure with JAVA.</p>
+            </li>
+            <li id="f21-02"><img src="images/db.jpg" alt="database"><br><b>INTRO TO DATABASE</b> <br> LEVEL 1<br>Section 340 &
+                343<p>Learned
+                    the introductory and
+                    fundamentals
+                    of SQL to create and modify queries while learning relational databases design through ERD's.</p>
+            </li>
+            <li id="f21-03"><img src="images/math.jpg" alt="math"><br><b>MATH FOR COMPUTER SCIENCE</b> <br> LEVEL 1<br>Section
+                055<br>
+                <p>Studied essential algebraic and transcendental functions needed in the field of Computer Science.</p>
+            </li>
+            <li id="f21-04"><img src="images/comp.jpg" alt="computers"><br><b>COMPUTER ESSENTIALS</b> <br> LEVEL 1<br>Section
+                340 & 343<p>
+                    Learned the essentials of
+                    computer
+                    hardware, software, and foundational skills in computer management / maintainance.</p>
+            </li>
+            <li id="f21-05"><img src="images/comms.jpg" alt="tech comms"><br><b>COMMUNICATIONS I</b> <br>LEVEL 1<br>Section 022
+                <br>
+                <p>Learned in detail the importance of communicating, which is a skill that is imperative to impress
+                    employers.</p>
+            </li>
+            <li id="f21-06"><img src="images/achv.jpg" alt="success"><br><b>ACHIEVING SUCCESS</b> <br> LEVEL 1<br>Section 309
+                <br>
+                <p>Learned about the rapidly changing environment in the technology industry while learning to presevere
+                    from those challenges.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!--Footer section containing copyright date, website credentials, and the purpose of the site-->
+    <footer>
+        <p>© Copyright 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Website Made By: Richard Duong &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Algonquin College Web Development Project</p>
+    </footer>
+</body>
+
+
+</html>
